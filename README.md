@@ -1,46 +1,48 @@
-# Qiskit
-[![License](https://img.shields.io/github/license/Qiskit/qiskit-terra.svg?)](https://opensource.org/licenses/Apache-2.0) <!--- long-description-skip-begin -->
-[![Release](https://img.shields.io/github/release/Qiskit/qiskit-terra.svg)](https://github.com/Qiskit/qiskit-terra/releases)
-[![Downloads](https://img.shields.io/pypi/dm/qiskit-terra.svg)](https://pypi.org/project/qiskit-terra/)
-[![Coverage Status](https://coveralls.io/repos/github/Qiskit/qiskit-terra/badge.svg?branch=main)](https://coveralls.io/github/Qiskit/qiskit-terra?branch=main)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/qiskit)
-[![Minimum rustc 1.70](https://img.shields.io/badge/rustc-1.70+-blue.svg)](https://rust-lang.github.io/rfcs/2495-min-rust-version.html)
-[![Downloads](https://static.pepy.tech/badge/qiskit-terra)](https://pepy.tech/project/qiskit-terra)<!--- long-description-skip-end -->
-[![DOI](https://zenodo.org/badge/161550823.svg)](https://zenodo.org/badge/latestdoi/161550823)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-qiskit" class="anchor" aria-hidden="true" tabindex="-1" href="#qiskit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奇斯基特</font></font></h1>
+<p dir="auto"><a href="https://opensource.org/licenses/Apache-2.0" rel="nofollow"><img src="https://camo.githubusercontent.com/5240ef6796a97f072b16c3656c44c87ebbe50536ee29d7399786b35060c1aa17/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f5169736b69742f7169736b69742d74657272612e7376673f" alt="执照" data-canonical-src="https://img.shields.io/github/license/Qiskit/qiskit-terra.svg?" style="max-width: 100%;"></a> 
+<a href="https://github.com/Qiskit/qiskit-terra/releases"><img src="https://camo.githubusercontent.com/52f6ed5a79852a00036e809ea02747f0060896822c5a570b5f6317de138fabb7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f5169736b69742f7169736b69742d74657272612e737667" alt="发布" data-canonical-src="https://img.shields.io/github/release/Qiskit/qiskit-terra.svg" style="max-width: 100%;"></a>
+<a href="https://pypi.org/project/qiskit-terra/" rel="nofollow"><img src="https://camo.githubusercontent.com/5b45ccc02de09b69889876ee795c3c9dad3c036e43d9ec07d419e173a45d4575/68747470733a2f2f696d672e736869656c64732e696f2f707970692f646d2f7169736b69742d74657272612e737667" alt="下载" data-canonical-src="https://img.shields.io/pypi/dm/qiskit-terra.svg" style="max-width: 100%;"></a>
+<a href="https://coveralls.io/github/Qiskit/qiskit-terra?branch=main" rel="nofollow"><img src="https://camo.githubusercontent.com/87593d75cd10ece5ea9bc39771a39331a6271d650cb2003341bcb532fbc7ab5d/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f5169736b69742f7169736b69742d74657272612f62616467652e7376673f6272616e63683d6d61696e" alt="覆盖状态" data-canonical-src="https://coveralls.io/repos/github/Qiskit/qiskit-terra/badge.svg?branch=main" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e9ba1295f9d99500aa2a9d91114a485d545246cf67303e40efb2829f96760565/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f7169736b6974"><img src="https://camo.githubusercontent.com/e9ba1295f9d99500aa2a9d91114a485d545246cf67303e40efb2829f96760565/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f7169736b6974" alt="PyPI - Python 版本" data-canonical-src="https://img.shields.io/pypi/pyversions/qiskit" style="max-width: 100%;"></a>
+<a href="https://rust-lang.github.io/rfcs/2495-min-rust-version.html" rel="nofollow"><img src="https://camo.githubusercontent.com/46a8c8f591a66778ad0fb692f11b6efe5362f28b03c7f9c70e6cf1f221f61c90/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72757374632d312e37302b2d626c75652e737667" alt="最低 rustc 1.70" data-canonical-src="https://img.shields.io/badge/rustc-1.70+-blue.svg" style="max-width: 100%;"></a>
+<a href="https://pepy.tech/project/qiskit-terra" rel="nofollow"><img src="https://camo.githubusercontent.com/bd9ce25ef19d78b756f56afe28dee6b956e182b8aba286e1531b668562e16a43/68747470733a2f2f7374617469632e706570792e746563682f62616467652f7169736b69742d7465727261" alt="下载" data-canonical-src="https://static.pepy.tech/badge/qiskit-terra" style="max-width: 100%;"></a>
+<a href="https://zenodo.org/badge/latestdoi/161550823" rel="nofollow"><img src="https://camo.githubusercontent.com/180e7a7d6701e85656104ce4f85877931566115322199f5df31a72a9605be0e4/68747470733a2f2f7a656e6f646f2e6f72672f62616467652f3136313535303832332e737667" alt="DOI" data-canonical-src="https://zenodo.org/badge/161550823.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Qiskit</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  是一个开源 SDK，用于在扩展量子电路、运算符和基元级别上使用量子计算机。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该库是 Qiskit 的核心组件，其中包含用于创建和使用量子电路、量子运算符和原始函数（采样器和估计器）的构建块。它还包含一个支持优化量子电路的转译器和一个用于创建高级量子算子的量子信息工具箱。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何使用 Qiskit 的更多详细信息，请参阅此处的文档：</font></font></p>
+<p dir="auto"><a href="https://docs.quantum.ibm.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://docs.quantum.ibm.com/</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们鼓励通过以下方式安装 Qiskit </font></font><code>pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install qiskit</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install qiskit" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pip 将自动处理所有依赖项，您将始终安装最新（且经过充分测试）的版本。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要从源安装，请按照</font></font><a href="https://docs.quantum.ibm.com/start/install-qiskit-source" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的说明进行操作。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-create-your-first-quantum-program-in-qiskit" class="anchor" aria-hidden="true" tabindex="-1" href="#create-your-first-quantum-program-in-qiskit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Qiskit 中创建您的第一个量子程序</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在 Qiskit 已安装，是时候开始使用 Qiskit 了。量子程序的基本部分是：</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义并构建代表量子态的量子电路</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过测量或一组可观察的算子定义经典输出</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据输出，使用原始函数</font></font><code>sampler</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对结果进行采样或</font></font><code>estimator</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">估计值。</font></font></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用以下类创建一个示例量子电路</font></font><code>QuantumCircuit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-s1">numpy</span> <span class="pl-k">as</span> <span class="pl-s1">np</span>
+<span class="pl-k">from</span> <span class="pl-s1">qiskit</span> <span class="pl-k">import</span> <span class="pl-v">QuantumCircuit</span>
 
-**Qiskit**  is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and primitives.
-
-This library is the core component of Qiskit, which contains the building blocks for creating and working with quantum circuits, quantum operators, and primitive functions (sampler and estimator).
-It also contains a transpiler that supports optimizing quantum circuits and a quantum information toolbox for creating advanced quantum operators. 
-
-For more details on how to use Qiskit, refer to the documentation located here:
-
-<https://docs.quantum.ibm.com/>
-
-
-## Installation
-
-We encourage installing Qiskit via ``pip``:
-
-```bash
-pip install qiskit
-```
-
-Pip will handle all dependencies automatically and you will always install the latest (and well-tested) version.
-
-To install from source, follow the instructions in the [documentation](https://docs.quantum.ibm.com/start/install-qiskit-source).
-
-## Create your first quantum program in Qiskit
-
-Now that Qiskit is installed, it's time to begin working with Qiskit. The essential parts of a quantum program are:
-1. Define and build a quantum circuit that represents the quantum state
-2. Define the classical output by measurements or a set of observable operators
-3. Depending on the output, use the primitive function `sampler` to sample outcomes or the `estimator` to estimate values.
-
-Create an example quantum circuit using the `QuantumCircuit` class:
-
-```python
-import numpy as np
+<span class="pl-c"># 1. A quantum circuit for preparing the quantum state |000&gt; + i |111&gt;</span>
+<span class="pl-s1">qc_example</span> <span class="pl-c1">=</span> <span class="pl-v">QuantumCircuit</span>(<span class="pl-c1">3</span>)
+<span class="pl-s1">qc_example</span>.<span class="pl-en">h</span>(<span class="pl-c1">0</span>)          <span class="pl-c"># generate superpostion</span>
+<span class="pl-s1">qc_example</span>.<span class="pl-en">p</span>(<span class="pl-s1">np</span>.<span class="pl-s1">pi</span><span class="pl-c1">/</span><span class="pl-c1">2</span>,<span class="pl-c1">0</span>)  <span class="pl-c"># add quantum phase</span>
+<span class="pl-s1">qc_example</span>.<span class="pl-en">cx</span>(<span class="pl-c1">0</span>,<span class="pl-c1">1</span>)       <span class="pl-c"># 0th-qubit-Controlled-NOT gate on 1st qubit</span>
+<span class="pl-s1">qc_example</span>.<span class="pl-en">cx</span>(<span class="pl-c1">0</span>,<span class="pl-c1">2</span>)       <span class="pl-c"># 0th-qubit-Controlled-NOT gate on 2nd qubit</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import numpy as np
 from qiskit import QuantumCircuit
 
 # 1. A quantum circuit for preparing the quantum state |000> + i |111>
@@ -48,16 +50,27 @@ qc_example = QuantumCircuit(3)
 qc_example.h(0)          # generate superpostion
 qc_example.p(np.pi/2,0)  # add quantum phase
 qc_example.cx(0,1)       # 0th-qubit-Controlled-NOT gate on 1st qubit
-qc_example.cx(0,2)       # 0th-qubit-Controlled-NOT gate on 2nd qubit
-```
+qc_example.cx(0,2)       # 0th-qubit-Controlled-NOT gate on 2nd qubit" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个简单的例子将纠缠态称为</font></font><a href="https://en.wikipedia.org/wiki/Greenberger%E2%80%93Horne%E2%80%93Zeilinger_state" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GHZ 态</font></font></a> <math-renderer class="js-inline-math" style="display: inline" data-static-url="https://github.githubassets.com/static" data-run-id="35efc7fe1f3b6c27017e5972cbc10c98" data-catalyst=""><mjx-container style="position: relative;" jax="CHTML" class="MathJax CtxtMenu_Attached_0" tabindex="0" ctxtmenu_counter="3"><mjx-math aria-hidden="true" class="MJX-TEX"><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c7C"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mo class="mjx-n"><mjx-c class="mjx-c27E9"></mjx-c></mjx-mo><mjx-mo space="3" class="mjx-n"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mi space="3" class="mjx-i"><mjx-c class="mjx-c1D456 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n"><mjx-c class="mjx-c7C"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-n"><mjx-c class="mjx-c27E9"></mjx-c></mjx-mo><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo><mjx-texatom><mjx-mo class="mjx-n"><mjx-c class="mjx-c2F"></mjx-c></mjx-mo></mjx-texatom><mjx-msqrt><mjx-sqrt><mjx-surd><mjx-mo class="mjx-n"><mjx-c class="mjx-c221A"></mjx-c></mjx-mo></mjx-surd><mjx-box style="padding-top: 0.174em;"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-box></mjx-sqrt></mjx-msqrt></mjx-math><mjx-assistive-mml display="inline" unselectable="on"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font></mo><mo stretchy="false" data-mjx-texclass="ORD"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></mo><mn><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">000</font></font></mn><mo stretchy="false" fence="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⟩</font></font></mo><mo><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></mo><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我</font></font></mi><mo stretchy="false" data-mjx-texclass="ORD"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font></mo><mn><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">111</font></font></mn><mo stretchy="false" fence="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⟩</font></font></mo><mo stretchy="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></mo><mrow data-mjx-texclass="ORD"><mo><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font></mo></mrow><msqrt><mn><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></mn></msqrt></math></mjx-assistive-mml></mjx-container></math-renderer><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。它使用标准量子门：哈达玛门 ( </font></font><code>h</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)、相位门 ( </font></font><code>p</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">) 和 CNOT 门 ( </font></font><code>cx</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作完第一个量子电路后，请选择要使用的原始函数。从 开始</font></font><code>sampler</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，我们用来</font></font><code>measure_all(inplace=False)</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取测量所有量子位的电路的副本：</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"># 2. Add the classical output in the form of measurement of all qubits</span>
+<span class="pl-s1">qc_measured</span> <span class="pl-c1">=</span> <span class="pl-s1">qc_example</span>.<span class="pl-en">measure_all</span>(<span class="pl-s1">inplace</span><span class="pl-c1">=</span><span class="pl-c1">False</span>)
 
-This simple example makes an entangled state known as a [GHZ state](https://en.wikipedia.org/wiki/Greenberger%E2%80%93Horne%E2%80%93Zeilinger_state) $(|000\rangle + i|111\rangle)/\sqrt{2}$. It uses the standard quantum gates: Hadamard gate (`h`), Phase gate (`p`), and CNOT gate (`cx`). 
-
-Once you've made your first quantum circuit, choose which primitive function you will use. Starting with `sampler`,
-we use `measure_all(inplace=False)` to get a copy of the circuit in which all the qubits are measured:
-
-```python
-# 2. Add the classical output in the form of measurement of all qubits
+<span class="pl-c"># 3. Execute using the Sampler primitive</span>
+<span class="pl-k">from</span> <span class="pl-s1">qiskit</span>.<span class="pl-s1">primitives</span>.<span class="pl-s1">sampler</span> <span class="pl-k">import</span> <span class="pl-v">Sampler</span>
+<span class="pl-s1">sampler</span> <span class="pl-c1">=</span> <span class="pl-v">Sampler</span>()
+<span class="pl-s1">job</span> <span class="pl-c1">=</span> <span class="pl-s1">sampler</span>.<span class="pl-en">run</span>(<span class="pl-s1">qc_measured</span>, <span class="pl-s1">shots</span><span class="pl-c1">=</span><span class="pl-c1">1000</span>)
+<span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-s1">job</span>.<span class="pl-en">result</span>()
+<span class="pl-en">print</span>(<span class="pl-s">f" &gt; Quasi probability distribution: <span class="pl-s1"><span class="pl-kos">{</span><span class="pl-s1">result</span>.<span class="pl-s1">quasi_dists</span><span class="pl-kos">}</span></span>"</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# 2. Add the classical output in the form of measurement of all qubits
 qc_measured = qc_example.measure_all(inplace=False)
 
 # 3. Execute using the Sampler primitive
@@ -65,100 +78,93 @@ from qiskit.primitives.sampler import Sampler
 sampler = Sampler()
 job = sampler.run(qc_measured, shots=1000)
 result = job.result()
-print(f" > Quasi probability distribution: {result.quasi_dists}")
-```
-Running this will give an outcome similar to `{0: 0.497, 7: 0.503}` which is `000` 50% of the time and `111` 50% of the time up to statistical fluctuations.  
-To illustrate the power of Estimator, we now use the quantum information toolbox to create the operator $XXY+XYX+YXX-YYY$ and pass it to the `run()` function, along with our quantum circuit. Note the Estimator requires a circuit _**without**_ measurement, so we use the `qc_example` circuit we created earlier.
+print(f&quot; > Quasi probability distribution: {result.quasi_dists}&quot;)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>{0: 0.497, 7: 0.503}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行此命令将得到类似于</font></font><code>000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">50% 的时间和</font></font><code>111</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">50% 的时间取决于统计波动的</font><font style="vertical-align: inherit;">结果。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+为了说明 Estimator 的强大功能，我们现在使用量子信息工具箱来创建算子</font></font><math-renderer class="js-inline-math" style="display: inline" data-static-url="https://github.githubassets.com/static" data-run-id="35efc7fe1f3b6c27017e5972cbc10c98" data-catalyst=""><mjx-container style="position: relative;" jax="CHTML" class="MathJax CtxtMenu_Attached_0" tabindex="0" ctxtmenu_counter="4"><mjx-math aria-hidden="true" class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44B TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44B TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44C TEX-I"></mjx-c></mjx-mi><mjx-mo space="3" class="mjx-n"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mi space="3" class="mjx-i"><mjx-c class="mjx-c1D44B TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44C TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44B TEX-I"></mjx-c></mjx-mi><mjx-mo space="3" class="mjx-n"><mjx-c class="mjx-c2B"></mjx-c></mjx-mo><mjx-mi space="3" class="mjx-i"><mjx-c class="mjx-c1D44C TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44B TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44B TEX-I"></mjx-c></mjx-mi><mjx-mo space="3" class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mi space="3" class="mjx-i"><mjx-c class="mjx-c1D44C TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44C TEX-I"></mjx-c></mjx-mi><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44C TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml display="inline" unselectable="on"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></mi><mo><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></mo><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></mi><mo><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></mo><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></mi><mo><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></mo><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></mi><mi><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font></mi></math></mjx-assistive-mml></mjx-container></math-renderer><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将其</font></font><code>run()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与我们的量子电路一起传递给函数。请注意，估算器需要一个</font></font><em><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有</font></font></strong></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测量的电路，因此我们使用</font></font><code>qc_example</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前创建的电路。</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"># 2. define the observable to be measured </span>
+<span class="pl-k">from</span> <span class="pl-s1">qiskit</span>.<span class="pl-s1">quantum_info</span> <span class="pl-k">import</span> <span class="pl-v">SparsePauliOp</span>
+<span class="pl-s1">operator</span> <span class="pl-c1">=</span> <span class="pl-v">SparsePauliOp</span>.<span class="pl-en">from_list</span>([(<span class="pl-s">"XXY"</span>, <span class="pl-c1">1</span>), (<span class="pl-s">"XYX"</span>, <span class="pl-c1">1</span>), (<span class="pl-s">"YXX"</span>, <span class="pl-c1">1</span>), (<span class="pl-s">"YYY"</span>, <span class="pl-c1">-</span><span class="pl-c1">1</span>)])
 
-```python
-# 2. define the observable to be measured 
+<span class="pl-c"># 3. Execute using the Estimator primitive</span>
+<span class="pl-k">from</span> <span class="pl-s1">qiskit</span>.<span class="pl-s1">primitives</span> <span class="pl-k">import</span> <span class="pl-v">Estimator</span>
+<span class="pl-s1">estimator</span> <span class="pl-c1">=</span> <span class="pl-v">Estimator</span>()
+<span class="pl-s1">job</span> <span class="pl-c1">=</span> <span class="pl-s1">estimator</span>.<span class="pl-en">run</span>(<span class="pl-s1">qc_example</span>, <span class="pl-s1">operator</span>, <span class="pl-s1">shots</span><span class="pl-c1">=</span><span class="pl-c1">1000</span>)
+<span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-s1">job</span>.<span class="pl-en">result</span>()
+<span class="pl-en">print</span>(<span class="pl-s">f" &gt; Expectation values: <span class="pl-s1"><span class="pl-kos">{</span><span class="pl-s1">result</span>.<span class="pl-s1">values</span><span class="pl-kos">}</span></span>"</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# 2. define the observable to be measured 
 from qiskit.quantum_info import SparsePauliOp
-operator = SparsePauliOp.from_list([("XXY", 1), ("XYX", 1), ("YXX", 1), ("YYY", -1)])
+operator = SparsePauliOp.from_list([(&quot;XXY&quot;, 1), (&quot;XYX&quot;, 1), (&quot;YXX&quot;, 1), (&quot;YYY&quot;, -1)])
 
 # 3. Execute using the Estimator primitive
 from qiskit.primitives import Estimator
 estimator = Estimator()
 job = estimator.run(qc_example, operator, shots=1000)
 result = job.result()
-print(f" > Expectation values: {result.values}")
-```
+print(f&quot; > Expectation values: {result.values}&quot;)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行这个就会给出结果</font></font><code>4</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。为了好玩，尝试为每个单量子位运算符 X 和 Y 分配 +/- 1 的值，看看是否可以实现此结果。 （剧透警告：这是不可能的！）</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Qiskit 提供的工具</font></font><code>qiskit.primitives.Sampler</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会</font></font><code>qiskit.primitives.Estimator</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让您走得太远。量子计算的力量无法在经典计算机上模拟，您需要使用真正的量子硬件来扩展到更大的量子电路。然而，在硬件上运行量子电路需要将它们重写为量子硬件的基础门和连接性。执行此操作的工具是</font></font><a href="https://docs.quantum.ibm.com/api/qiskit/transpiler" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转译器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+，Qiskit 包括用于综合、优化、映射和调度的转译器通道。然而，它还包括一个默认编译器，在大多数示例中都运行良好。以下代码将示例电路映射到</font></font><code>basis_gates = ['cz', 'sx', 'rz']</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">量子位的线性链</font></font><math-renderer class="js-inline-math" style="display: inline" data-static-url="https://github.githubassets.com/static" data-run-id="35efc7fe1f3b6c27017e5972cbc10c98" data-catalyst=""><mjx-container style="position: relative;" jax="CHTML" class="MathJax CtxtMenu_Attached_0" tabindex="0" ctxtmenu_counter="5"><mjx-math aria-hidden="true" class="MJX-TEX"><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mo space="4" class="mjx-n"><mjx-c class="mjx-c2192"></mjx-c></mjx-mo><mjx-mn space="4" class="mjx-n"><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo space="4" class="mjx-n"><mjx-c class="mjx-c2192"></mjx-c></mjx-mo><mjx-mn space="4" class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml display="inline" unselectable="on"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0</font></font></mn><mo stretchy="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">→</font></font></mo><mn><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></mn><mo stretchy="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">→</font></font></mo><mn><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></mn></math></mjx-assistive-mml></mjx-container></math-renderer><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><code>coupling_map =[[0, 1], [1, 2]]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">qiskit</span> <span class="pl-k">import</span> <span class="pl-s1">transpile</span>
+<span class="pl-s1">qc_transpiled</span> <span class="pl-c1">=</span> <span class="pl-en">transpile</span>(<span class="pl-s1">qc_example</span>, <span class="pl-s1">basis_gates</span> <span class="pl-c1">=</span> [<span class="pl-s">'cz'</span>, <span class="pl-s">'sx'</span>, <span class="pl-s">'rz'</span>], <span class="pl-s1">coupling_map</span> <span class="pl-c1">=</span>[[<span class="pl-c1">0</span>, <span class="pl-c1">1</span>], [<span class="pl-c1">1</span>, <span class="pl-c1">2</span>]] , <span class="pl-s1">optimization_level</span><span class="pl-c1">=</span><span class="pl-c1">3</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from qiskit import transpile
+qc_transpiled = transpile(qc_example, basis_gates = ['cz', 'sx', 'rz'], coupling_map =[[0, 1], [1, 2]] , optimization_level=3)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-executing-your-code-on-real-quantum-hardware" class="anchor" aria-hidden="true" tabindex="-1" href="#executing-your-code-on-real-quantum-hardware"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在真正的量子硬件上执行代码</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Qiskit 提供了一个抽象层，允许用户在任何提供兼容接口的供应商的硬件上运行量子电路。使用 Qiskit 的最佳方法是使用一个运行时环境，该环境为给定的硬件平台提供优化的</font></font><code>sampler</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现</font></font><code>estimator</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。该运行时可能涉及使用预处理和后处理，例如具有错误抑制、错误缓解以及最终内置的纠错功能的优化转译器通道。运行时实现</font></font><code>qiskit.primitives.BaseSampler</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>qiskit.primitives.BaseEstimator</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接口。例如，一些提供运行时原语实现的包是：</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/Qiskit/qiskit-ibm-runtime"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Qiskit/qiskit-ibm-runtime</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Qiskit 还提供了一个较低级别的抽象接口来描述量子后端。该接口位于 中
+</font></font><code>qiskit.providers</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，定义了一个抽象</font></font><code>BackendV2</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类，提供商可以实现该抽象类来向 Qiskit 表示其硬件或模拟器。后端类包括用于在后端执行电路的公共接口；然而，在此接口中，每个提供商可以执行不同类型的预处理和后处理，并返回供应商定义的结果。与真实硬件交互的已发布提供程序包的一些示例包括：</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/Qiskit/qiskit-ibm-provider"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Qiskit/qiskit-ibm-provider</font></font></a></li>
+<li><a href="https://github.com/qiskit-community/qiskit-ionq"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/qiskit-community/qiskit-ionq</font></font></a></li>
+<li><a href="https://github.com/qiskit-community/qiskit-aqt-provider"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/qiskit-community/qiskit-aqt-provider</font></font></a></li>
+<li><a href="https://github.com/qiskit-community/qiskit-braket-provider"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/qiskit-community/qiskit-braket-provider</font></font></a></li>
+<li><a href="https://github.com/qiskit-community/qiskit-quantinuum-provider"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/qiskit-community/qiskit-quantinuum-provider</font></font></a></li>
+<li><a href="https://github.com/rigetti/qiskit-rigetti"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/rigetti/qiskit-rigetti</font></font></a></li>
+</ul>
 
-Running this will give the outcome `4`. For fun, try to assign a value of +/- 1 to each single-qubit operator X and Y 
-and see if you can achieve this outcome. (Spoiler alert: this is not possible!)
-
-Using the Qiskit-provided `qiskit.primitives.Sampler` and `qiskit.primitives.Estimator` will not take you very far. The power of quantum computing cannot be simulated 
-on classical computers and you need to use real quantum hardware to scale to larger quantum circuits. However, running a quantum 
-circuit on hardware requires rewriting them to the basis gates and connectivity of the quantum hardware.
-The tool that does this is the [transpiler](https://docs.quantum.ibm.com/api/qiskit/transpiler) 
-and Qiskit includes transpiler passes for synthesis, optimization, mapping, and scheduling. However, it also includes a
-default compiler which works very well in most examples. The following code will map the example circuit to the `basis_gates = ['cz', 'sx', 'rz']` and a linear chain of qubits $0 \rightarrow 1 \rightarrow 2$ with the `coupling_map =[[0, 1], [1, 2]]`.
-
-```python
-from qiskit import transpile
-qc_transpiled = transpile(qc_example, basis_gates = ['cz', 'sx', 'rz'], coupling_map =[[0, 1], [1, 2]] , optimization_level=3)
-```
-
-### Executing your code on real quantum hardware
-
-Qiskit provides an abstraction layer that lets users run quantum circuits on hardware from any vendor that provides a compatible interface. 
-The best way to use Qiskit is with a runtime environment that provides optimized implementations of `sampler` and `estimator` for a given hardware platform. This runtime may involve using pre- and post-processing, such as optimized transpiler passes with error suppression, error mitigation, and, eventually, error correction built in. A runtime implements `qiskit.primitives.BaseSampler` and `qiskit.primitives.BaseEstimator` interfaces. For example,
-some packages that provide implementations of a runtime primitive implementation are:
-
-* https://github.com/Qiskit/qiskit-ibm-runtime
-
-Qiskit also provides a lower-level abstract interface for describing quantum backends. This interface, located in
-``qiskit.providers``, defines an abstract `BackendV2` class that providers can implement to represent their
-hardware or simulators to Qiskit. The backend class includes a common interface for executing circuits on the backends; however, in this interface each provider may perform different types of pre- and post-processing and return outcomes that are vendor-defined. Some examples of published provider packages that interface with real hardware are:
-
-* https://github.com/Qiskit/qiskit-ibm-provider
-* https://github.com/qiskit-community/qiskit-ionq
-* https://github.com/qiskit-community/qiskit-aqt-provider
-* https://github.com/qiskit-community/qiskit-braket-provider
-* https://github.com/qiskit-community/qiskit-quantinuum-provider
-* https://github.com/rigetti/qiskit-rigetti
-
-<!-- This is not an exhaustive list, and if you maintain a provider package please feel free to open a PR to add new providers -->
-
-You can refer to the documentation of these packages for further instructions
-on how to get access and use these systems.
-
-## Contribution Guidelines
-
-If you'd like to contribute to Qiskit, please take a look at our
-[contribution guidelines](CONTRIBUTING.md). By participating, you are expected to uphold our [code of conduct](CODE_OF_CONDUCT.md).
-
-We use [GitHub issues](https://github.com/Qiskit/qiskit-terra/issues) for tracking requests and bugs. Please
-[join the Qiskit Slack community](https://qisk.it/join-slack) for discussion, comments, and questions.
-For questions related to running or using Qiskit, [Stack Overflow has a `qiskit`](https://stackoverflow.com/questions/tagged/qiskit).
-For questions on quantum computing with Qiskit, use the `qiskit` tag in the [Quantum Computing Stack Exchange](https://quantumcomputing.stackexchange.com/questions/tagged/qiskit) (please, read first the [guidelines on how to ask](https://quantumcomputing.stackexchange.com/help/how-to-ask) in that forum).
-
-
-## Authors and Citation
-
-Qiskit is the work of [many people](https://github.com/Qiskit/qiskit-terra/graphs/contributors) who contribute
-to the project at different levels. If you use Qiskit, please cite as per the included [BibTeX file](CITATION.bib).
-
-## Changelog and Release Notes
-
-The changelog for a particular release is dynamically generated and gets
-written to the release page on Github for each release. For example, you can
-find the page for the `0.46.0` release here:
-
-<https://github.com/Qiskit/qiskit/releases/tag/0.46.0>
-
-The changelog for the current release can be found in the releases tab:
-[![Releases](https://img.shields.io/github/release/Qiskit/qiskit-terra.svg?style=flat&label=)](https://github.com/Qiskit/qiskit/releases)
-The changelog provides a quick overview of notable changes for a given
-release.
-
-Additionally, as part of each release, detailed release notes are written to
-document in detail what has changed as part of a release. This includes any
-documentation on potential breaking changes on upgrade and new features. See [all release notes here](https://docs.quantum.ibm.com/api/qiskit/release-notes).
-
-## Acknowledgements
-
-We acknowledge partial support for Qiskit development from the DOE Office of Science National Quantum Information Science Research Centers, Co-design Center for Quantum Advantage (C2QA) under contract number DE-SC0012704.
-
-## License
-
-[Apache License 2.0](LICENSE.txt)
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以参考这些软件包的文档，以获取有关如何访问和使用这些系统的进一步说明。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contribution-guidelines" class="anchor" aria-hidden="true" tabindex="-1" href="#contribution-guidelines"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想为 Qiskit 做出贡献，请查看我们的
+</font></font><a href="/Qiskit/qiskit/blob/main/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。通过参与，您应该遵守我们的</font></font><a href="/Qiskit/qiskit/blob/main/CODE_OF_CONDUCT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为准则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们使用</font></font><a href="https://github.com/Qiskit/qiskit-terra/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub issues</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来跟踪请求和错误。请
+</font></font><a href="https://qisk.it/join-slack" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入 Qiskit Slack 社区</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行讨论、评论和提问。对于与运行或使用 Qiskit 相关的问题，</font></font><a href="https://stackoverflow.com/questions/tagged/qiskit" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stack Overflow 有一个</font></font><code>qiskit</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.有关 Qiskit 量子计算的问题，请使用</font><a href="https://quantumcomputing.stackexchange.com/questions/tagged/qiskit" rel="nofollow"><font style="vertical-align: inherit;">QuantumComputing Stack Exchange</font></a></font><code>qiskit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的标签</font><font style="vertical-align: inherit;">（请首先阅读</font><a href="https://quantumcomputing.stackexchange.com/help/how-to-ask" rel="nofollow"><font style="vertical-align: inherit;">有关如何</font></a><font style="vertical-align: inherit;">在该论坛中提问的指南）。</font></font><a href="https://quantumcomputing.stackexchange.com/questions/tagged/qiskit" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="https://quantumcomputing.stackexchange.com/help/how-to-ask" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-authors-and-citation" class="anchor" aria-hidden="true" tabindex="-1" href="#authors-and-citation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者和引用</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/Qiskit/qiskit-terra/graphs/contributors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Qiskit 是许多</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在不同层面上为该项目做出贡献的人</font><font style="vertical-align: inherit;">的成果。</font><font style="vertical-align: inherit;">如果您使用 Qiskit，请按照随附的</font></font><a href="/Qiskit/qiskit/blob/main/CITATION.bib"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BibTeX 文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行引用。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-changelog-and-release-notes" class="anchor" aria-hidden="true" tabindex="-1" href="#changelog-and-release-notes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变更日志和发行说明</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特定版本的变更日志是动态生成的，并写入每个版本的 Github 上的版本页面。例如，您可以</font></font><code>0.46.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处找到该版本的页面：</font></font></p>
+<p dir="auto"><a href="https://github.com/Qiskit/qiskit/releases/tag/0.46.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/Qiskit/qiskit/releases/tag/0.46.0</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前版本的变更日志可以在版本选项卡中找到：
+</font></font><a href="https://github.com/Qiskit/qiskit/releases"><img src="https://camo.githubusercontent.com/697e3045cbca7f5c2733a7aa5443b17274a0457193e0e5681d9623dc09974317/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f5169736b69742f7169736b69742d74657272612e7376673f7374796c653d666c6174266c6162656c3d" alt="发布" data-canonical-src="https://img.shields.io/github/release/Qiskit/qiskit-terra.svg?style=flat&amp;label=" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+变更日志提供了给定版本的显着更改的快速概述。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，作为每个版本的一部分，都会编写详细的发行说明，以详细记录版本中发生的更改。这包括有关升级和新功能的潜在重大更改的任何文档。请在此处</font><font style="vertical-align: inherit;">查看</font></font><a href="https://docs.quantum.ibm.com/api/qiskit/release-notes" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有发行说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-acknowledgements" class="anchor" aria-hidden="true" tabindex="-1" href="#acknowledgements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">致谢</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们感谢美国能源部国家量子信息科学研究中心科学办公室、量子优势联合设计中心 (C2QA) 对 Qiskit 开发的部分支持，合同号为 DE-SC0012704。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><a href="/Qiskit/qiskit/blob/main/LICENSE.txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇许可证 2.0</font></font></a></p>
+</article></div>
